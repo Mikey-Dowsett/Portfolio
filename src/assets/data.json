@@ -1,0 +1,68 @@
+{
+  "games": [
+    {
+      "id": 8,
+      "title": "Bouncy Ball",
+      "src": "/gameimages/bouncyball.png",
+      "link": "https://www.addictinggames.com/action/bouncy-ball",
+      "tags": "February 2024,Unity,Aseprite,freesound.org,AddictingGames.com",
+      "desc": "Bouncy Ball started out as an idea I wanted to make in one week. It turned out to be a lot more fun than I expected and took two weeks to make in the end. The game play is simple, fire the bouncy ball to collect all the collectables. During this project, I learned about Unity's rule tile system and got a much deeper understanding of the particle system. Bouncy Ball is published on Addicting Games and is my first published game."
+    },
+    {
+      "id": 7,
+      "title": "Fight For Earth",
+      "src": "/gameimages/fightforearth.png",
+      "link": "https://dark-horn-games.itch.io/fight-for-earth",
+      "tags": "February 2023,Unity,Aseprite,freesound.org,Brackeys Game Jam 2023.1",
+      "desc": "Fight for Earth was made in 7 days for the Brackeys Game Jam 2023.1 with the theme 'An end is a new beginning'. My game loosely fits this theme by starting you as a different character each time. It is a short wave-based shooter game where you have to kill incoming zombies until the timer runs out. When the game starts you are randomly given one of three possible gun types. As you kill zombies you gain XP to upgrade your character, with certain upgrades being better for each type. By completing this project I learned how to create an upgrade system that affects different stats while trying to keep the game balanced."
+    },
+    {
+      "id": 6,
+      "title": "Math Sweeper",
+      "src": "/gameimages/mathsweeper.png",
+      "link": "https://dark-horn-games.itch.io/mathsweeper",
+      "tags": "August 2022,Unity,Aseprite,freesound.org",
+      "desc": "Math Sweeper started as an attempt to recreate the original minesweeper. I created a randomly generating system that creates a certain amount of bombs when the player clicks their first tile, ensuring they always get one free tile. Once I had the main system done and working exactly like the original minesweeper I decided to add my own spin to it. I decided to give the player a chance to keep playing when they clicked a bomb. All they had to do was solve a math problem. Then I created a difficulty system off of that where each difficulty added more bombs and made the math harder by using bigger numbers."
+    },
+    {
+      "id": 5,
+      "title": "Farmers Apocalypse",
+      "src": "/gameimages/farmersapocalypse.png",
+      "link": "https://dark-horn-games.itch.io/farmers-apocalypse",
+      "tags": "August 2022,Unity,Aseprite,freesound.org,Wowie Jam 4.0",
+      "desc": "Farmers Apocalypse was made in three days for the Wowie Jam 4.0 with the theme 'Collaborate with AI'. My game fits this theme by having the player work with an AI turret to defeat incoming enemies. The goal of the game was to survive until you beat the final boss. The player was tasked with planting crops for the gun to shoot while also upgrading the gun. The 'AI' gun used the crops as ammo, creating a balancing act between growing crops and not running out of ammo."
+    },
+    {
+      "id": 4,
+      "title": "The Drillers",
+      "src": "/gameimages/thedrillers.png",
+      "link": "https://mikeydowsett.com/gamepages/thedrillers",
+      "tags": "August 2022,Unity,Aseprite,BFXR",
+      "desc": "The Drillers was a small game I made inspired by the game play of Dome Keeper. The objective of the game is to dig deeper and deeper harvesting rare and valuable gems. The player can then sell the gems to upgrade themselves and unlock deeper layers. It's a very simple game, but I tried to create a more distinct look for the game with post-processing. I used Grain and Panini Projection to give the game a more retro feel that works with pixel art and 8-bit sound effects. I also tried to create a more immersive environment by adding rain to the surface that gets quieter the deeper you dig."
+    },
+    {
+      "id": 3,
+      "title": "Greek Brawl",
+      "src": "/gameimages/greekbrawl.png",
+      "link": "https://dark-horn-games.itch.io/greek-brawl",
+      "tags": "February 2022,Unity,Aseprite,freesound.org",
+      "desc": "Greek Brawl was my attempt at a simple turn-based game. At the start of the game, the player and AI are given four randomly selected characters. The player plays as the gods, while the AI plays as monsters. Each character has attack damage, an accuracy chance, and a special ability. The special ability is charged up by attacking and getting hit. Each character also falls into one of six classes, each one of which does critical damage to another class. My main focus while working on this project was the systems, creating the AI for the enemy to give it a good chance of winning. As well as the turn-based system that kept track of all the characters. The art and sound effects did not match up well, and the UI was very clunky. This project was much more of a technical piece than a visual and it shows."
+    },
+    {
+      "id": 2,
+      "title": "Mahara",
+      "src": "/gameimages/mahara.png",
+      "link": "https://dark-horn-games.itch.io/mahara",
+      "tags": "June 2021,Unity,Aseprite,BFXR,Bosca Ceoil,MashUp Game Jam 2",
+      "desc": "Mahara was made in three days for the MashUp Game Jam 2 with the theme 'Unconventional Means'. This was my first game jam so I decided to keep it simple by making a platformer. I had the game fit the theme by switching the gravity instead of jumping. I also created floors you can't touch, enemies that walk back and forth, and an enemy that shoots projectiles. While the game mechanics had potential, I was still new to making games without following tutorials at the time, so the difficulty was very inconsistent. The sounds aren't very good and don't fit with the art style. The art is also inconsistent with itself, the player is far more detailed than the environment, and the background isn't even pixel art. I learned a lot from the game though, especially about planning games and making them quickly."
+    },
+    {
+      "id": 1,
+      "title": "Dwarf Dash",
+      "src": "/gameimages/dwarfdash.png",
+      "link": "https://dark-horn-games.itch.io/dwarf-dash",
+      "tags": "Janurary 2020,Unity,Photoshop",
+      "desc": "Dwarf Dash is a recreation of the first game, but still one of my first projects. I made it while following a tutorial by BlackThornProd. It is very similar to the original but I added the ability to unlock new characters and backgrounds. The game play is very simple, avoid the falling boulders for as long as you can. Some shields fall occasionally giving you one free hit from a boulder. The longer you last the more points you get, which can be used to unlock the other characters and backgrounds. Each character has slightly different heights and speeds, giving each their own advantage and disadvantage. This is one of my first games, and it shows. The UI is very simple and doesn't look good, and the game play is very clunky."
+    }
+  ]
+}

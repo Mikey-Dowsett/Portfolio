@@ -24,7 +24,7 @@
 
     <template #end>
       <div id="socials">
-        <Button icon="pi pi-envelope" text></Button>
+        <!-- <Button icon="pi pi-envelope" text></Button> -->
         <Button icon="pi pi-github" @click="openGithub" text></Button>
         <Button icon="pi pi-linkedin" @click="openLinkedin" text></Button>
       </div>
