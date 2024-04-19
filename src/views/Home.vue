@@ -1,6 +1,6 @@
 <template>
   <div id="hero">
-    <img src="/src/assets/aquaducts.jpg" />
+    <img src="/aquaducts.jpg" />
     <Card id="herointro">
       <template #content>
         <h1>I'm Mikey Dowsett</h1>
@@ -72,15 +72,15 @@ export default {
   methods: {
     importGifs() {
       this.images.push({
-        src: "/public/gifs/bouncyball.gif",
+        src: "/gifs/bouncyball.gif",
       });
       this.images.push({
-        src: "/public/gifs/fightforearth.gif",
+        src: "/gifs/fightforearth.gif",
       });
       this.images.push({
-        src: "/public/gifs/thedrillers.gif",
+        src: "/gifs/thedrillers.gif",
       });
-      this.images.push({ src: "/public/gifs/mahara.gif" });
+      this.images.push({ src: "/gifs/mahara.gif" });
     },
   },
 };

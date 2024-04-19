@@ -2,7 +2,6 @@
   <Card id="card">
     <template #title>
       <div id="header">
-        <Avatar image="/src/assets/mainmug.jpg" shape="circle" size="xlarge" />
         <h1>About Me</h1>
       </div>
     </template>
@@ -28,17 +27,17 @@
     </template>
     <template #footer>
       <Image
-        src="/public/gallery/gymbro.jpg"
+        src="/gallery/gymbro.jpg"
         class="footer"
         :width="imageWidth"
       />
       <Image
-        src="/public/gallery/tpose.jpg"
+        src="/gallery/tpose.jpg"
         class="footer"
         :width="imageWidth"
       />
       <Image
-        src="/public/gallery/sketchy.jpg"
+        src="/gallery/sketchy.jpg"
         class="footer"
         :width="imageWidth"
       />
