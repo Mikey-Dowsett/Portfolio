@@ -28,17 +28,17 @@
     </template>
     <template #footer>
       <Image
-        src="/src/assets/gallery/gymbro.jpg"
+        src="/public/gallery/gymbro.jpg"
         class="footer"
         :width="imageWidth"
       />
       <Image
-        src="/src/assets/gallery/tpose.jpg"
+        src="/public/gallery/tpose.jpg"
         class="footer"
         :width="imageWidth"
       />
       <Image
-        src="/src/assets/gallery/sketchy.jpg"
+        src="/public/gallery/sketchy.jpg"
         class="footer"
         :width="imageWidth"
       />

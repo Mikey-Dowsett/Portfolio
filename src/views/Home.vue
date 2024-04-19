@@ -72,15 +72,15 @@ export default {
   methods: {
     importGifs() {
       this.images.push({
-        src: "/src/assets/gifs/bouncyball.gif",
+        src: "/public/gifs/bouncyball.gif",
       });
       this.images.push({
-        src: "/src/assets/gifs/fightforearth.gif",
+        src: "/public/gifs/fightforearth.gif",
       });
       this.images.push({
-        src: "/src/assets/gifs/thedrillers.gif",
+        src: "/public/gifs/thedrillers.gif",
       });
-      this.images.push({ src: "/src/assets/gifs/mahara.gif" });
+      this.images.push({ src: "/public/gifs/mahara.gif" });
     },
   },
 };

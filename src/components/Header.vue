@@ -7,7 +7,7 @@
     <template #start>
       <div style="display: flex; margin-right: 20px">
         <Avatar
-          image="/src/assets/mainmug.jpg"
+          image="/public/mainmug.jpg"
           shape="circle"
           size="large"
           style="margin: auto 10px"
