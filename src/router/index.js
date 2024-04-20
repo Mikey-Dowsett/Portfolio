@@ -19,6 +19,10 @@ const routes = [
     name: "About",
     component: About,
   },
+  {
+    path: "/:catchAll(.*)",
+    redirect: "/"
+  }
 ];
 
 const router = createRouter({

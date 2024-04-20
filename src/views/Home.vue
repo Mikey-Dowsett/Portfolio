@@ -18,7 +18,7 @@
             :to="{ name: 'Games' }"
             style="margin: 20px 30px auto auto"
           >
-            <Button label="View All"></Button>
+            <Button label="View All" rounded></Button>
           </router-link>
         </div>
       </template>

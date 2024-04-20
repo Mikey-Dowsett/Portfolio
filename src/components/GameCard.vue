@@ -14,7 +14,7 @@
             </AccordionTab>
           </Accordion>
           <p id="desktopDesc">{{ desc }}</p>
-          <Button label="Play Game" @click="openGame"></Button>
+          <Button label="Play Game" @click="openGame" rounded></Button>
         </div>
       </div>
     </template>
