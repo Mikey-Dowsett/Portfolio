@@ -9,6 +9,7 @@
         <FloatLabel class="label">
           <InputText
             id="username"
+            class="input"
             name="from_name"
             v-model="name"
             required
@@ -18,6 +19,7 @@
         <FloatLabel class="label">
           <InputText
             type="email"
+            class="input"
             id="email"
             name="reply_to"
             v-model="email"
@@ -28,6 +30,7 @@
         <FloatLabel class="label">
           <Textarea
             id="email"
+            class="input"
             name="message"
             autoResize
             rows="5"
@@ -97,7 +100,10 @@ export default {
   margin: 50px auto;
 }
 .label {
-  margin: 30px auto;
+  margin-bottom: 25px;
+}
+.input {
+  width: 100%;
 }
 @media only screen and (min-width: 768px) {
   #card {

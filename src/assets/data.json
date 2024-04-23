@@ -67,7 +67,7 @@
   ],
   "projects": [
     {
-      "id": 202,
+      "id": 204,
       "title": "Chalk Bag",
       "src": "/images/chalkbag.png",
       "link": "https://github.com/Mikey-Dowsett/chalk-bag",
@@ -75,12 +75,28 @@
       "desc": "Chalk bag is a social media-style application I made for rock climbers. My goal was to create a platform where you could post pictures with information about routes you completed. The app allows you to create an account, upload routes, and view anyone else's routes. My tech stack for this project included .Net Maui and Supabase. This was my first time using a database to store information, which proved challenging to figure out. I used Supabase to store my images and handle authentication as well. Maui was similar enough to WPF that I could use my knowledge from that to help create a responsive UI for Android devices."
     },
     {
-      "id": 201,
+      "id": 203,
       "title": "WPF Calculator",
       "src": "/images/wpfcalculator.png",
-      "link": "https://github.com/Mikey-Dowsett/CalculatorAppCSharp",
+      "link": "https://github.com/Mikey-Dowsett/CalculatorWPF",
       "tags": ".Net WPF,C#",
       "desc": "This project is a simple calculator I made with .Net WPF(Windows Presentation Format). This was my first time using a framework like this to create a project. While working on this project I learned how to use XAML to create a GUI, while using my existing knowledge of C# to create the functionality of the app. The app's functionality includes basic calculator inputs along with a history page to view previous calculations."
+    },
+    {
+      "id": 202,
+      "title": "Image Stacker",
+      "src": "/images/imagestacker.png",
+      "link": "https://github.com/Mikey-Dowsett/ImageStacker",
+      "tags": "Python,Tkinter,Pyplot,ImageTK",
+      "desc": "Image Stack is a Python application I made using Tkinter. The goal of this app was to take several layers of images as input and stack them together randomly to create unique images. Each input was a folder containing image parts, such as a body, head, arms, cape, etc. The application could create as many random images as you wanted, showing previews as it made them. "
+    },
+    {
+      "id": 201,
+      "title": "CopyPasta",
+      "src": "/images/copypasta.png",
+      "link": "https://github.com/Mikey-Dowsett/CopyPasta",
+      "tags": "Python,Tkinter",
+      "desc": "CopyPasta is a simple Python application that allows the user to clone a file into subfolders or create a folder in subfolders. It flashes green when done and it completes each task almost instantly. I created this application for a friend who had to do this manually at his job. The app allowed him to complete this task instantly and save days of work."
     }
   ]
 }
