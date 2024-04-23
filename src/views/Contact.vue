@@ -75,18 +75,27 @@ export default {
             this.name = "";
             this.email = "";
             this.message = "";
-            this.showToast();
+            this.showSuccessToast();
           },
           (error) => {
             console.log("FAILED...", error.text);
+            this.showErrorToast();
           }
         );
     },
-    showToast() {
+    showSuccessToast() {
       this.$toast.add({
         severity: "success",
         summary: "Email Sent",
         detail: "Your message was sent successfully!",
+        life: 3000,
+      });
+    },
+    showErrorToast() {
+      this.$toast.add({
+        severity: "error",
+        summary: "Failed",
+        detail: "Your message failed to send!",
         life: 3000,
       });
     },
