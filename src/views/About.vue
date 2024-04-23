@@ -10,13 +10,13 @@
       <p class="m-0">
         Hi, I’m Mikey Dowsett, a self-taught game developer and a computer
         information systems student from New Zealand. I was born in Auckland,
-        New Zealand, and I grew up in the United States. Some of my hobbies
+        New Zealand and I grew up in the United States. Some of my hobbies
         include reading books, playing video games, and rock climbing. I love
         exploring new destinations and immersing myself in the diverse culture,
         cuisine, and scenery of different places. One of the most memorable
         places I’ve visited while backpacking around Europe is the Park of the
         Aqueducts in Rome, where I was able to walk under the incredible
-        Aqueducts the Roman's built so long ago. I’m currently studying computer
+        Aqueducts the Romans built so long ago. I’m currently studying computer
         information systems at college to enhance my technical and business
         skills. I enjoy making different kinds of games every time to challenge
         myself and learn new skills. I love coding, designing, and testing my
@@ -26,21 +26,9 @@
       <Divider></Divider>
     </template>
     <template #footer>
-      <Image
-        src="/gallery/gymbro.jpg"
-        class="footer"
-        :width="imageWidth"
-      />
-      <Image
-        src="/gallery/tpose.jpg"
-        class="footer"
-        :width="imageWidth"
-      />
-      <Image
-        src="/gallery/sketchy.jpg"
-        class="footer"
-        :width="imageWidth"
-      />
+      <Image src="/images/gymbro.jpg" class="footer" :width="imageWidth" />
+      <Image src="/images/tpose.jpg" class="footer" :width="imageWidth" />
+      <Image src="/images/sketchy.jpg" class="footer" :width="imageWidth" />
     </template>
   </Card>
 </template>
@@ -56,6 +44,8 @@ export default {
     let windowWidth = window.innerWidth;
     if (windowWidth < 768) {
       this.imageWidth = windowWidth / 2;
+    } else {
+      this.imageWidth = windowWidth / 4;
     }
   },
 };

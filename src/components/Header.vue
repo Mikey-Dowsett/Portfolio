@@ -7,13 +7,17 @@
     <template #start>
       <div style="display: flex; margin-right: 20px">
         <Avatar
-          image="/mainmug.jpg"
+          image="/images/mainmug.jpg"
           shape="circle"
           size="large"
           style="margin: auto 10px"
           id="avatar"
         ></Avatar>
-        <h2>Mikey Dowsett</h2>
+        <router-link
+          :to="{ name: 'Home' }"
+          style="text-decoration: none; color: white"
+          ><h3>Mikey Dowsett</h3></router-link
+        >
       </div>
     </template>
     <template #item="item">
@@ -24,7 +28,10 @@
 
     <template #end>
       <div id="socials">
-        <!-- <Button icon="pi pi-envelope" text></Button> -->
+        <router-link :to="{ name: 'Contact' }"
+          ><Button icon="pi pi-envelope" text></Button
+        ></router-link>
+
         <Button icon="pi pi-github" @click="openGithub" text></Button>
         <Button icon="pi pi-linkedin" @click="openLinkedin" text></Button>
       </div>
@@ -42,7 +49,11 @@
       </router-link>
     </template>
     <template #end>
-      <h3>Mikey Dowsett</h3>
+      <router-link
+        :to="{ name: 'Home' }"
+        style="text-decoration: none; color: white"
+        ><h3>Mikey Dowsett</h3></router-link
+      >
     </template>
   </Menubar>
 </template>
@@ -55,6 +66,10 @@ export default {
         {
           label: "Home",
           route: "/",
+        },
+        {
+          label: "Projects",
+          route: "/projects",
         },
         {
           label: "Games",

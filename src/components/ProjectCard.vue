@@ -14,7 +14,7 @@
             </AccordionTab>
           </Accordion>
           <p id="desktopDesc">{{ desc }}</p>
-          <Button label="Play Game" @click="openGame" rounded></Button>
+          <Button :label="buttontext" @click="openGame" rounded></Button>
         </div>
       </div>
     </template>
@@ -33,7 +33,7 @@
 
 <script>
 export default {
-  props: ["title", "src", "desc", "link", "tags"],
+  props: ["title", "src", "desc", "link", "tags", "buttontext"],
   data() {
     return {
       tagArray: [],
