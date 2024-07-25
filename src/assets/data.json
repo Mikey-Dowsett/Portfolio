@@ -1,6 +1,14 @@
 {
   "games": [
     {
+      "id": 110,
+      "title": "ZenTiles",
+      "src": "/images/zentiles.png",
+      "link": "https://fangpower.itch.io/zentiles",
+      "tags": "July 2024,Unity,Unity Version Control",
+      "desc": "ZenTiles is a strategy game made in 1.5 days for the Kenney Jam 2024. The theme for the jam was connections and all the art had to be from Kenney assets. My teammate and I came up with ZenTiles, where you have to complete sets of tiles while keeping all the tiles connected to the center tile. Completing sets makes the tiles disappear, which forces some strategy to be used when placing tiles."
+    },
+    {
       "id": 109,
       "title": "Hydro Hustle",
       "src": "/images/hydrohustle.png",
@@ -12,8 +20,8 @@
       "id": 108,
       "title": "Bouncy Ball",
       "src": "/images/bouncyball.png",
-      "link": "https://www.addictinggames.com/action/bouncy-ball",
-      "tags": "February 2024,Unity,Aseprite,freesound.org,AddictingGames.com",
+      "link": "https://fangpower.itch.io/bouncy-ball",
+      "tags": "February 2024,Unity,Aseprite,freesound.org",
       "desc": "Bouncy Ball started as an idea I wanted to make in one week. It turned out to be a lot more fun than I expected and took two weeks to make in the end. The gameplay is simple, fire the bouncy ball to collect all the collectables. During this project, I learned about Unity's rule tile system and got a much deeper understanding of the particle system. Bouncy Ball is published on Addicting Games and is my first published game."
     },
     {
