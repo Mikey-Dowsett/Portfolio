@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
   "version": "0.0.1",
-  "description": "A Quasar Project",
-  "productName": "Quasar App",
+  "description": "View Mikey Dowsett's portfolio, including all his projects and games",
+  "productName": "Mikey Dowsett",
   "author": "Mikey Dowsett <mikeydowsett@proton.me>",
   "type": "module",
   "private": true,

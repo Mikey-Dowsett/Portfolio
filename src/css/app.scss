@@ -1,1 +1,63 @@
-// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html, body {
+  font-family: "Nunito", system-ui;
+}
+
+.q-header {
+  background-color: $dark-page;
+  align-content: center;
+  align-items: center;
+}
+
+.q-card, .q-btn {
+  border-radius: 25px;
+}
+
+.q-card {
+  background-color: var(--q-dark);
+  color: var(--q-light);
+  border: 2px solid var(--q-light);
+  box-shadow: none;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.q-card__section {
+  padding: 0;
+}
+
+.q-btn {
+  background-color: var(--q-positive);
+  color: var(--q-light);
+  font-weight: bold;
+  transition: all 0.25s;
+}
+
+.q-btn:hover {
+  transform: scale(1.25);
+}
+
+.q-tabs {
+  background-color: var(--q-dark);
+  border-radius: 25px;
+  max-width: 935px;
+  margin: auto;
+}
+
+.q-tab {
+  border: 2px solid var(--q-light);
+  border-radius: 25px;
+  margin: 2rem 1rem;
+  transition: all 0.2s;
+}
+
+.q-tab--active {
+  background: var(--q-positive);
+  color: white !important;
+}
+
+.q-expansion-item {
+  color: var(--q-light);
+  margin: 1rem auto 0 auto;
+}
