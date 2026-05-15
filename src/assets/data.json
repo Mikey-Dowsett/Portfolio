@@ -92,12 +92,28 @@
   ],
   "projects": [
     {
+      "id": 207,
+      "title": "LLM-as-a-Judge for DSL",
+      "src": "/images/llm-judge.jpg",
+      "highlight": true,
+      "tags": "Python, Prompt Engineering, DSL, RLVR, Fine Tuning",
+      "desc": "A Python pipeline leveraging Phi-4 to automatically generate, validate, and refine scripts written in a custom DSL. The system uses a multi-prompt architecture — a generator prompt produces functional DSL scripts, a judge prompt evaluates correctness and compilation success, and a comparison prompt selects the better output between two candidates. A compilation validator is integrated directly into the RLVR workflow, enabling reinforcement-style feedback on whether generated scripts actually run."
+    },
+    {
+      "id": 206,
+      "title": "Multi-Head R-CNN",
+      "src": "/images/rcnn.jpg",
+      "highlight": true,
+      "tags": "PyTorch,Python,Machine Learning,Classification,Regression",
+      "desc": "A multi-head regression CNN trained to classify and characterize RF signals from complex IQ waveforms. The architecture features dual classification heads alongside a regression head, taking real and imaginary IQ samples as two-channel input across 500K SNR-filtered waveforms. Trained with Cross Entropy and MSE losses over 20 epochs, the model achieved 100% accuracy on signal type classification, 99.98% on pulse count classification, and an R² of ~0.9841 on regression outputs — demonstrating strong generalization under noisy conditions."
+    },
+    {
       "id": 205,
       "title": "loftly.social",
       "src": "/images/loftly.png",
       "github": "https://loftly.social",
       "demo": "https://loftly.social",
-      "highlight": true,
+      "highlight": false,
       "tags": "TypeScript,Quasar,Vus.js,Supabase,Postgres,Python,FastAPI",
       "desc": "Loftly is an open, cross-platform social media manager for the \nFediverse. Connect Mastodon, Pixelfed, Lemmy, and Bluesky accounts in \none place — post everywhere at once, track engagement, and manage your online presence without the walled gardens. While working on Loftly I learned how to use FastAPI to create a reliable backend, while also developing a deeper understanding of how to safely integrate a database."
     },
