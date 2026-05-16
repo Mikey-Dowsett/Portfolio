@@ -94,6 +94,7 @@
     {
       "id": 209,
       "title": "Bluesky Agent",
+      "company": "Personal",
       "src": "/images/bluesky_agent.jpg",
       "github": "https://github.com/Mikey-Dowsett/bsky_personality_agent",
       "highlight": false,
@@ -103,6 +104,7 @@
     {
       "id": 208,
       "title": "Secure RAG Model",
+      "company": "Personal",
       "src": "/images/secure_rag.jpg",
       "github": "https://github.com/Mikey-Dowsett/GRAB-Prevention",
       "highlight": false,
@@ -112,6 +114,7 @@
     {
       "id": 207,
       "title": "LLM-as-a-Judge for DSL",
+      "company": "Missouri Institue for Defense & Energy",
       "src": "/images/llm-judge.jpg",
       "highlight": true,
       "tags": "Python, Prompt Engineering, DSL, RLVR, Fine Tuning",
@@ -120,6 +123,7 @@
     {
       "id": 206,
       "title": "Multi-Head R-CNN",
+      "company": "Missouri Institue for Defense & Energy",
       "src": "/images/rcnn.jpg",
       "highlight": true,
       "tags": "PyTorch,Python,Machine Learning,Classification,Regression",
@@ -128,6 +132,7 @@
     {
       "id": 205,
       "title": "loftly.social",
+      "company": "Personal",
       "src": "/images/loftly.png",
       "github": "https://loftly.social",
       "demo": "https://loftly.social",
@@ -138,6 +143,7 @@
     {
       "id": 204,
       "title": "Chalk Bag",
+      "company": "Personal",
       "src": "/images/chalkbag.png",
       "github": "https://github.com/Mikey-Dowsett/chalk-bag",
       "tags": ".Net Maui,C#,Supabase,Postgres",
@@ -146,6 +152,7 @@
     {
       "id": 203,
       "title": "WPF Calculator",
+      "company": "Personal",
       "src": "/images/wpfcalculator.png",
       "github": "https://github.com/Mikey-Dowsett/CalculatorWPF",
       "tags": ".Net WPF,C#",
@@ -154,6 +161,7 @@
     {
       "id": 202,
       "title": "Image Stacker",
+      "company": "Personal",
       "src": "/images/imagestacker.png",
       "github": "https://github.com/Mikey-Dowsett/ImageStacker",
       "tags": "Python,Tkinter,Pyplot,ImageTK",
@@ -162,6 +170,7 @@
     {
       "id": 201,
       "title": "CopyPasta",
+      "company": "Personal",
       "src": "/images/copypasta.png",
       "github": "https://github.com/Mikey-Dowsett/CopyPasta",
       "tags": "Python,Tkinter",

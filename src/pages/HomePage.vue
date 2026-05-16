@@ -110,6 +110,7 @@ watchEffect(() => {
           v-for="project in projects"
           :key="project.id"
           :title="project.title"
+          :company="project.company"
           :src="project.src"
           :desc="project.desc"
           :link="project.link"

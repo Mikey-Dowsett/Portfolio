@@ -3,6 +3,7 @@ import { ref, onMounted } from 'vue'
 
 const props = defineProps([
   'title',
+  'company',
   'src',
   'desc',
   'link',
@@ -38,7 +39,8 @@ onMounted(() => {
     </div>
 
     <q-card-section class="header">
-      <h1 :class="{ 'gradient-title': highlight }">{{ title }}</h1>
+      <h1>{{ title }}</h1>
+      <h4>{{ company }}</h4>
     </q-card-section>
 
     <q-card-section class="content">
@@ -106,13 +108,22 @@ onMounted(() => {
 }
 
 .header {
+  padding-top: 0;
   padding-bottom: 0;
 }
 
 .header h1 {
   text-align: center;
-  margin: 0.75rem 1rem 0.5rem;
+  margin: 0;
   font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.header h4 {
+  text-align: center;
+  margin: 0;
+  font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: -0.01em;
 }
