@@ -92,6 +92,24 @@
   ],
   "projects": [
     {
+      "id": 209,
+      "title": "Bluesky Agent",
+      "src": "/images/bluesky_agent.jpg",
+      "github": "https://github.com/Mikey-Dowsett/bsky_personality_agent",
+      "highlight": false,
+      "tags": "Python, Prompt Engineering, RAG, langchain, Tools, LLM",
+      "desc": "An autonomous LangChain agent that operates as a personality-driven Bluesky social media bot. Built with LangGraph's ReAct agent architecture and running on a local Ollama LLM, the agent is equipped with tools to read its timeline, search posts, fetch its own posting history, and create new posts — enabling a full read-think-post loop. It grounds its writing in a curated set of source texts via a retrieval tool, and uses memory tools to avoid repeating itself across sessions. Prompt engineering was central to shaping a consistent, authentic voice and guiding the agent's tool usage behavior."
+    },
+    {
+      "id": 208,
+      "title": "Secure RAG Model",
+      "src": "/images/secure_rag.jpg",
+      "github": "https://github.com/Mikey-Dowsett/GRAB-Prevention",
+      "highlight": false,
+      "tags": "Python, Prompt Engineering, RAG, Security, LLM",
+      "desc": "A Retrieval-Augmented Generation system built on synthetic university documents, combining Gemini (via API) and Llama 3.2 (via Ollama) as interchangeable backends. ChromaDB handles document embedding and semantic retrieval, feeding relevant context into the model alongside the user's query. Prompt engineering was applied to enforce data privacy guardrails, preventing the model from surfacing sensitive personnel or financial information regardless of how it was prompted."
+    },
+    {
       "id": 207,
       "title": "LLM-as-a-Judge for DSL",
       "src": "/images/llm-judge.jpg",

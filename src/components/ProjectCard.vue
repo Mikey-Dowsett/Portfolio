@@ -32,7 +32,7 @@ onMounted(() => {
 
 <template>
   <q-card class="card" :class="{ highlighted: highlight }">
-    <div v-if="highlight" class="featured-badge">
+    <div v-if="highlight" class="featured-badge q--avoid-card-border">
       <q-icon name="fa-solid fa-star" size="9px" />
       Featured
     </div>
@@ -118,11 +118,7 @@ onMounted(() => {
 }
 
 .featured-badge {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-  display: flex;
-  align-items: center;
+  text-align: center;
   gap: 5px;
   background: linear-gradient(135deg, var(--q-negative), var(--q-positive));
   color: var(--q-light);
@@ -130,8 +126,8 @@ onMounted(() => {
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding: 5px 12px;
-  border-radius: 20px;
+  padding: 6px 14px;
+  border-radius: 20px 20px 0px 0px;
   z-index: 2;
 }
 
@@ -208,6 +204,7 @@ onMounted(() => {
   }
 
   .mobile_description {
+    width: 100%;
     display: block;
   }
 

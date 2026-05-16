@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-html, body {
-  font-family: "Nunito", system-ui;
+html,
+body {
+  font-family: 'Nunito', system-ui;
 }
 
 .q-header {
@@ -10,7 +11,8 @@ html, body {
   align-items: center;
 }
 
-.q-card, .q-btn {
+.q-card,
+.q-btn {
   border-radius: 25px;
 }
 
